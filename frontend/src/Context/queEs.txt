@@ -1,0 +1,1 @@
+Nos permite que los componentes compartan datos, estados, entre componentes hermanos, padres, hijos

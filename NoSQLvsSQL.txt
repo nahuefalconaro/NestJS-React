@@ -1,0 +1,29 @@
+SQL:
+    Cuando utilizar?
+        - Cuando los datos no tienen un crecimiento exponencial
+        - Cuando tenemos una estructura de datos fuerte
+Esquema de datos fijo, todos los registros deben respetar el esquema de la tabla
+Las consultas son mediante querys(insert.., update...)
+
+NoSQL: 
+    Cuando utilizar?
+        - Cuando el volumen de datos crece exponencialmente
+
+
+
+Esquema de datos inestable( En una coleccion(tabla)) se pueden guardar datos con diferentes columnas
+Las consultas son mediante codigo similar a JS
+
+
+
+
+Insert:
+
+NoSQL
+db.collection.save({
+    nombre: 'nombre',
+    edad: 24
+})
+
+Sql
+insert into tabla values (v1,v2,v3)
